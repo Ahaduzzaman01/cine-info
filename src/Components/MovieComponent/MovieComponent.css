@@ -1,0 +1,53 @@
+.single-card {
+    border-radius: 8px;
+    width: 31%;
+    cursor: pointer;  
+}
+
+.single-card a {
+    text-decoration: none;
+    color: #222831;
+}
+
+.custom-card{
+    border: none;
+}
+
+.custom-card h5:hover{
+    text-decoration: underline;
+}
+
+.rating {
+    background-color: #e2e2e2;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.rating img {
+    width: 30px;
+}
+
+.rating p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+    .single-card {
+    border-radius: 8px;
+    width: 46%;  
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single-card {
+    border-radius: 8px;
+    width: 90%;  
+    }
+}
+  
+@media only screen and (max-width: 576px) {
+    .single-card {
+    border-radius: 8px;
+    width: 95%;  
+    }
+}

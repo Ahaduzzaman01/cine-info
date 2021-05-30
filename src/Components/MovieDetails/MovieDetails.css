@@ -1,0 +1,35 @@
+.overview-text{
+    text-align: justify;
+}
+
+.text-part {
+    background-color: #FAE042;
+    color: #404040;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.movie-name {
+    border-bottom: 2px dotted #404040;
+}
+
+@media only screen and (max-width: 992px) {
+    .detail-container{
+        flex-direction: column;
+    }
+
+    .detail-image-box img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-part {
+        border-radius:  0px 0px 0px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 525px) {
+    .text-part {
+        border-radius: 0px 0px 25px 25px;
+    }
+}
